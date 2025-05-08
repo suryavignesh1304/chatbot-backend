@@ -8,7 +8,7 @@ const port = process.env.PORT || 3001;
 
 // Configure CORS to allow requests from Netlify frontend
 app.use(cors({
-  origin: ['https://chatbot-altibbe.netlify.app/', 'http://localhost:5173'] // Replace with your Netlify domain
+  origin: ['https://chatbot-altibbe.netlify.app', 'http://localhost:5173']
 }));
 app.use(express.json());
 
