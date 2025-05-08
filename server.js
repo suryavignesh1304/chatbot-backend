@@ -8,7 +8,7 @@ const port = process.env.PORT || 3001;
 
 // Configure CORS to allow requests from Vercel frontend
 app.use(cors({
-  origin: ['https://chatbot-frontend.vercel.app', 'http://localhost:5173'] // Update with your Vercel domain
+  origin: ['https://chatbot-altibbe.netlify.app/', 'http://localhost:5173'] // Update with your Vercel domain
 }));
 app.use(express.json());
 
