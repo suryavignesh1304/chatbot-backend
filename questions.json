@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "text": "How often do you purchase organic products?",
+    "type": "choice",
+    "options": ["Daily", "Weekly", "Monthly", "Rarely"]
+  },
+  {
+    "id": 2,
+    "text": "What type of organic products are you most interested in?",
+    "type": "choice",
+    "options": ["Food", "clothing"]
+  },
+  {
+    "id": 3,
+    "text": "How important is it to have verified purity reports (e.g., QR-based) for organic products?",
+    "type": "choice",
+    "options": ["Very Important", "Somewhat Important", "Neutral", "Not Important"]
+  },
+  {
+    "id": 4,
+    "text": "Would you prefer to connect with local organic producers or global traders?",
+    "type": "choice",
+    "options": ["Local Producers", "Global Traders", "Both"]
+  },
+  {
+    "id": 5,
+    "text": "What challenges do you face when buying organic products?",
+    "type": "text"
+  },
+  {
+    "id": 6,
+    "text": "Your first name and last name",
+    "type": "text"
+  }
+]

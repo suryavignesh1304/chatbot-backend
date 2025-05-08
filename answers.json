@@ -1,0 +1,38 @@
+[
+  {
+    "questionId": 1,
+    "question": "How often do you purchase organic products?",
+    "answer": "Daily",
+    "timestamp": "2025-05-08T09:34:21.557Z"
+  },
+  {
+    "questionId": 2,
+    "question": "What type of organic products are you most interested in?",
+    "answer": "Food",
+    "timestamp": "2025-05-08T09:34:24.422Z"
+  },
+  {
+    "questionId": 3,
+    "question": "How important is it to have verified purity reports (e.g., QR-based) for organic products?",
+    "answer": "Very Important",
+    "timestamp": "2025-05-08T09:34:27.109Z"
+  },
+  {
+    "questionId": 4,
+    "question": "Would you prefer to connect with local organic producers or global traders?",
+    "answer": "Both",
+    "timestamp": "2025-05-08T09:34:29.906Z"
+  },
+  {
+    "questionId": 5,
+    "question": "What challenges do you face when buying organic products?",
+    "answer": "fghj",
+    "timestamp": "2025-05-08T09:34:47.284Z"
+  },
+  {
+    "questionId": 6,
+    "question": "Your first name and last name",
+    "answer": "surya kapuganti",
+    "timestamp": "2025-05-08T09:35:14.194Z"
+  }
+]
