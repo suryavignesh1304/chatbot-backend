@@ -6,11 +6,21 @@ const path = require('path');
 const app = express();
 const port = process.env.PORT || 3001;
 
-// Configure CORS to allow requests from Vercel frontend
+// Configure CORS to allow requests from Netlify frontend
 app.use(cors({
-  origin: ['https://chatbot-altibbe.netlify.app/', 'http://localhost:5173'] // Update with your Vercel domain
+  origin: ['https://chatbot-altibbe.netlify.app/', 'http://localhost:5173'] // Replace with your Netlify domain
 }));
 app.use(express.json());
+
+// Ensure answers.json exists
+const ensureAnswersFile = async () => {
+  try {
+    await fs.access(path.join(__dirname, 'answers.json'));
+  } catch {
+    await fs.writeFile(path.join(__dirname, 'answers.json'), '[]');
+  }
+};
+ensureAnswersFile();
 
 // Get questions
 app.get('/questions', async (req, res) => {
